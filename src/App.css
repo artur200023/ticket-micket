@@ -1,0 +1,110 @@
+body{
+    background: rgba(230, 226, 226, 0.261);
+}
+
+.action {
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    width: 100%;
+    max-width: 30%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    height: 100%;
+    min-height: 100px;
+    margin: auto;
+}
+
+.action_btns button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px 0;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    border: 1px solid rgba(3, 102, 214, 0.3);
+    background: #007DC3;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.action_btns button:hover{
+    background: #fff;
+    color: #007DC3;
+}
+
+.action_btns {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.select_block select {
+    font-weight: 600;
+    line-height: 20px;
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid rgba(3, 102, 214, 0.3);
+    background: #fff;
+}
+
+.delete {
+    padding: 5px 10px;
+    margin: 5px 0;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgba(3, 102, 214, 0.3);
+    background: #fff;
+    cursor: pointer;
+    position: absolute;
+    right: 18px;
+    bottom: 10px;
+    background: #007DC3;
+    color: #fff;
+    transition: all .3s;
+}
+
+.delete:hover{
+    background: #fff;
+    color: #007DC3;
+}
+
+.section_opts input {
+    padding: 8px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(3, 102, 214, 0.3);
+}
+
+.section_opts button {
+    padding: 5px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    border: 1px solid rgba(3, 102, 214, 0.3);
+    background: #fff;
+    border-radius: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    background: #007DC3;
+    color: #fff;
+    transition: all .3s;
+}
+
+.section_opts button:hover{
+    background: #fff;
+    color: #007DC3;
+}
+
+.select {
+    display: flex;
+    gap: 5px;
+    padding: 5px 0;
+}
