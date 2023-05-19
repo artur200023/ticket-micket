@@ -109,6 +109,7 @@ const Konva = () => {
             setSection={setSection}
             seats={seats}
             handleChangeSeats={handleChangeSeats}
+            
             setTable={setTable}
             text={text}
             handleChangeText={handleChangeText}
